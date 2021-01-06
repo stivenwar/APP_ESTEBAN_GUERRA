@@ -1,6 +1,6 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
 import {Componente} from '../../interfaces/interfaces';
-import {IonInfiniteScroll} from '@ionic/angular';
+import series from 'src/assets/data/series.json';
 
 @Component({
   selector: 'app-principal',
@@ -8,30 +8,15 @@ import {IonInfiniteScroll} from '@ionic/angular';
   styleUrls: ['./principal.page.scss'],
 })
 export class PrincipalPage implements OnInit {
-  @ViewChild(IonInfiniteScroll) infiniteScrol: IonInfiniteScroll;
+    serieslist: {titulo: string, imagen: string, sinopsis: string}[] = series;
   componentes: Componente[] = [];
-
-  data: any[] = Array(4);
+  data: any[] = [
+      'assets/images/accion.jpg',
+      'assets/images/comedia.jpg',
+      'assets/images/terror.jpg'
+  ];
   constructor() { }
 
   ngOnInit() {
-
-  }
-
-  loadData(event) {
-    console.log('CARGANDO SIGUIENTE');
-
-    if (this.data.length > 4){
-      event.target.complete();
-      this.infiniteScrol.disabled = true;
-      return;
-    }
-    setTimeout(() => {
-      const nuevoArr = Array(4);
-      this.data.push(...nuevoArr);
-      event.target.complete();
-    }, 1000);
-
-
   }
 }

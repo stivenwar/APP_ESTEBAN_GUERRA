@@ -1,0 +1,154 @@
+[
+  {
+    "titulo": "SIMSONS",
+    "imagen": "assets/images/imgSeries/simpsons.jpg",
+    "categoria": "comedia",
+    "capitulos":"692",
+    "emision": "1989",
+    "sinopsis": "La serie es una sátira hacia la sociedad estadounidense que narra la vida y el día a día de una familia de clase media de ese país (cuyos miembros son Homer, Marge, Bart, Lisa y Maggie Simpson) que vive en un pueblo ficticio llamado Springfield."
+  },
+  {
+    "titulo": "AQUI NO HAY QUIEN VIVA",
+    "imagen": "assets/images/imgSeries/aquiNo.jpg",
+    "categoria": "comedia",
+    "capitulos":"600",
+    "emision": "2003",
+    "sinopsis": " es una serie de televisión española de género humorístico. Narra la vida de una peculiar comunidad de vecinos de Desengaño, 21: tres pisos, dos casas por planta, un ático, una portería y un local contiguo."
+  },
+  {
+    "titulo": "LA QUE SE AVECINA",
+    "imagen": "assets/images/imgSeries/laQueSeAvecina.jpeg",
+    "categoria": "comedia",
+    "capitulos":"500",
+    "emision": "2010",
+    "sinopsis": "La que se avecina cuenta la historia de un grupo de vecinos que viven en una urbanización ficticia llamada Urbanización del mirador de montepinar, en donde han construido un nuevo edificio de condominio, en el momento en que comienzan a llegar los nuevos inquilino al edificio empiezan «las locuras»."
+  },
+  {
+    "titulo": "BROKLYN NINE-NINE",
+    "imagen": "assets/images/imgSeries/brooklyn-nine-nines.jpg",
+    "categoria": "comedia",
+    "capitulos":"84",
+    "emision": "2013",
+    "sinopsis": "La serie sigue las aventuras de un grupo de detectives de la comisaría 99 del Departamento de Policía de Nueva York, cada uno con personalidades distintas."
+  },
+  {
+    "titulo": "COMO CONOCI A VUESTRA MADRE",
+    "imagen": "assets/images/imgSeries/CCAVM.jpg",
+    "categoria": "comedia",
+    "capitulos":"208",
+    "emision": "2005",
+    "sinopsis": "es una historia de amor contada a la inversa; en la que Ted (Josh Radnor) cuenta cómo se enamoró. Cuando los mejores amigos de Ted, Marshall (Jason segel) y Lily ( alyson Hannigan) deciden contraer matrimonio, Ted decide que ha llegado la hora de buscar a su propia media naranja."
+  },
+  {
+    "titulo": "THE WALKING DEAD",
+    "imagen": "assets/images/imgSeries/walking.jpg",
+    "categoria": "acción, terror",
+    "capitulos":"147",
+    "emision": "2010",
+    "sinopsis": "es una serie de televisión estadounidense de horror post-apocalíptico para AMC basada en la serie de cómics de Robert Kirkman, Tony Moore y Charlie Adlard. La serie presenta un gran elenco como sobrevivientes de un apocalipsis zombi, tratando de mantenerse con vida bajo la amenaza casi constante de ataques de los zombis sin conciencia, coloquialmente conocidos como «caminantes». Sin embargo, con la caída de la humanidad, estos sobrevivientes también enfrentan conflictos con otros sobrevivientes que han formado grupos y comunidades con sus propios conjuntos de leyes y morales, lo que a menudo conduce a conflictos hostiles entre las comunidades humanas."
+  },
+  {
+    "titulo": "GAME OF THRONES",
+    "imagen": "assets/images/imgSeries/game.jpg",
+    "categoria": "acción",
+    "capitulos":"73",
+    "emision": "2011",
+    "sinopsis": "La serie está ambientada en los continentes ficticios de Poniente y Essos, y recorre distintos arcos narrativos en los cuales participan un gran número de personajes. Su primer arco narrativo se centra en las violentas luchas dinásticas entre varias familias nobles por el control del Trono de Hierro del continente de Poniente y sus Siete Reinos; el segundo abarca los intentos de recuperar el mismo Trono por parte de los herederos de la antigua dinastía gobernante, la casa Targaryen, quienes fueron exiliados a Essos; la tercera crónica es la creciente amenaza del invierno, las criaturas legendarias y pueblos feroces que habitan más allá del Muro que separa a los Siete Reinos de Poniente de las gélidas tierras del Norte, donde no se ha establecido ningún tipo de gobierno. "
+  },
+  {
+    "titulo": "BREAKING BAD",
+    "imagen": "assets/images/imgSeries/breaking-bad.jpg",
+    "categoria": "acción",
+    "capitulos":"62",
+    "emision": "2008",
+    "sinopsis": "Walter White (Bryan Cranston) es un frustrado profesor de química en un instituto, padre de un joven discapacitado y con una mujer (Anna Gunn) embarazada. Además, trabaja en un lavadero de vehículos por las tardes. Cuando le diagnostican un cáncer pulmonar terminal se plantea qué pasará con su familia cuando él muera. En una redada de la DEA, a la cual fue invitado por su cuñado, el agente Hank Schrader (Dean Norris), Walt reconoce a un antiguo alumno suyo, Jesse Pinkman (Aaron Paul), a quien contacta para fabricar y vender metanfetamina y así asegurar el bienestar económico de su familia. Pero el acercamiento al mundo de las drogas y el trato con traficantes y mafiosos contamina la personalidad de Walter, el cual va abandonando poco a poco su personalidad recta y predecible para convertirse en alguien sin demasiados escrúpulos cuando se trata de conseguir lo que quiere."
+  },
+  {
+    "titulo": "SONS OF ANARCHY",
+    "imagen": "assets/images/imgSeries/anarchyjpg.jpg",
+    "categoria": "acción",
+    "capitulos":"92",
+    "emision": "2008",
+    "sinopsis": " narra la vida de la familia Teller-Morrow en la población de Charming junto con la de otros miembros del club, sus familias, ciudadanos de Charming y varios rivales y aliados que minan y apoyan a los negocios legales e ilegales de SAMCRO."
+  },
+  {
+    "titulo": "TEEN TITANS",
+    "imagen": "assets/images/imgSeries/Titanes.jpg",
+    "categoria": "acción",
+    "capitulos":"22",
+    "emision": "2018",
+    "sinopsis": "sigue a los jóvenes superhéroes del equipo homónimo mientras luchan contra el mal y otros peligros. \u200B Disuelto cuando comienza la historia, la serie ve al equipo regresar cuando los miembros originales y nuevos reforman a los Titanes."
+  },
+  {
+    "titulo": "",
+    "imagen": "",
+    "categoria": "",
+    "capitulos":"",
+    "emision": "",
+    "sinopsis": ""
+  },
+  {
+    "titulo": "",
+    "imagen": "",
+    "categoria": "",
+    "capitulos":"",
+    "emision": "",
+    "sinopsis": ""
+  },
+  {
+    "titulo": "",
+    "imagen": "",
+    "categoria": "",
+    "capitulos":"",
+    "emision": "",
+    "sinopsis": ""
+  },
+  {
+    "titulo": "",
+    "imagen": "",
+    "categoria": "",
+    "capitulos":"",
+    "emision": "",
+    "sinopsis": ""
+  },
+  {
+    "titulo": "",
+    "imagen": "",
+    "categoria": "",
+    "capitulos":"",
+    "emision": "",
+    "sinopsis": ""
+  },
+  {
+    "titulo": "",
+    "imagen": "",
+    "categoria": "",
+    "capitulos":"",
+    "emision": "",
+    "sinopsis": ""
+  },
+  {
+    "titulo": "",
+    "imagen": "",
+    "categoria": "",
+    "capitulos":"",
+    "emision": "",
+    "sinopsis": ""
+  },
+  {
+    "titulo": "",
+    "imagen": "",
+    "categoria": "",
+    "capitulos":"",
+    "emision": "",
+    "sinopsis": ""
+  },
+  {
+    "titulo": "",
+    "imagen": "",
+    "categoria": "",
+    "capitulos":"",
+    "emision": "",
+    "sinopsis": ""
+  }
+]
