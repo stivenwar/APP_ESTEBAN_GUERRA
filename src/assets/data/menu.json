@@ -1,0 +1,17 @@
+[
+  {
+    "image": "/assets/images/accion.jpg",
+    "name": "Acción",
+    "redirectTo": "/accion"
+  },
+  {
+    "image": "/assets/images/comedia.jpg",
+    "name": "Comedia",
+    "redirectTo": "/comedia"
+  },
+  {
+    "image": "/assets/images/terror.jpg",
+    "name": "Terror",
+    "redirectTo": "/terror"
+  }
+]
