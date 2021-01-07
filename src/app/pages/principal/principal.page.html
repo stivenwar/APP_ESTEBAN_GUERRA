@@ -9,19 +9,16 @@
 </ion-header>
 
 <ion-content>
-     <ion-list>
-         <ion-item *ngFor="let d of serieslist">
-             <ion-card>
-                 <ion-card-content>
-                     <ion-card-title>{{d.titulo}}</ion-card-title>
-                     <ion-img style="width: 200px; height: 200px" src="{{d.imagen}}" ></ion-img>
-                     {{d.sinopsis}}
-                 </ion-card-content>
-             </ion-card>
 
-         </ion-item>
+     <ion-list *ngFor="let d of seriesInfo | async">
+         <ion-card >
+             <ion-card-header>
+                 <ion-card-title align="center">{{d.titulo}}</ion-card-title>
+                 <ion-img  src="{{d.imagen}}" ></ion-img>
+             </ion-card-header>
+             <ion-card-content align="center" >{{d.sinopsis}}</ion-card-content>
+         </ion-card>
 
      </ion-list>
-
 
 </ion-content>

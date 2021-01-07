@@ -80,75 +80,75 @@
     "sinopsis": "sigue a los jóvenes superhéroes del equipo homónimo mientras luchan contra el mal y otros peligros. \u200B Disuelto cuando comienza la historia, la serie ve al equipo regresar cuando los miembros originales y nuevos reforman a los Titanes."
   },
   {
-    "titulo": "",
-    "imagen": "",
-    "categoria": "",
-    "capitulos":"",
-    "emision": "",
-    "sinopsis": ""
+    "titulo": "THE TERROR",
+    "imagen": "assets/images/imgSeries/terror.jpg",
+    "categoria": "terror",
+    "capitulos":"24",
+    "emision": "2018",
+    "sinopsis": "narra las desventuras de los tripulantes que conformaban la expedición perdida de Franklin. Dos barcos, el HMS Erebus y el HMS Terror, que intentaban cruzar por primera vez del Atlántico al Pacífico desafiando los hielos del paso del Noroeste."
   },
   {
-    "titulo": "",
-    "imagen": "",
-    "categoria": "",
-    "capitulos":"",
-    "emision": "",
-    "sinopsis": ""
+    "titulo": "STRANGER THINGS",
+    "imagen": "assets/images/imgSeries/StrangerThings.png",
+    "categoria": "terror",
+    "capitulos":"24",
+    "emision": "2016",
+    "sinopsis": "La historia arranca durante la década de los 80, en el pueblo ficticio de Hawkins, Indiana, cuando un niño llamado Will Byers desaparece misteriosamente, hecho que destapa los extraños sucesos que tienen lugar en la zona, producto de una serie de experimentos que realiza el gobierno en un laboratorio científico cercano ..."
   },
   {
-    "titulo": "",
-    "imagen": "",
-    "categoria": "",
-    "capitulos":"",
-    "emision": "",
-    "sinopsis": ""
+    "titulo": "AMERICAN HORROR STORY",
+    "imagen": "assets/images/imgSeries/American_Horror_Story.png",
+    "categoria": "terror",
+    "capitulos":"110",
+    "emision": "2011",
+    "sinopsis": " Cada temporada se concibe como una miniserie autónoma, siguiendo un conjunto diferente de personajes y escenarios, y un argumento con su propio «principio, medio y fin». Algunos elementos de la trama de cada temporada están vagamente inspirados en hechos reales.4\u200B5\u200B6\u200B Muchos actores aparecen en más de una temporada, pero a menudo interpretan un nuevo personaje."
   },
   {
-    "titulo": "",
-    "imagen": "",
-    "categoria": "",
-    "capitulos":"",
-    "emision": "",
-    "sinopsis": ""
+    "titulo": "SCREAM",
+    "imagen": "assets/images/imgSeries/Scream.jpg",
+    "categoria": "terror",
+    "capitulos":"30",
+    "emision": "2015",
+    "sinopsis": "Emma Duval, una adolescente que de alguna manera está vinculada al pasado de la ciudad, es la principal obsesión del asesino y el centro de estos horribles asesinatos. Con su familia y amigos en aparente peligro, se propone descubrir los oscuros misterios de la ciudad y desenmascarar al asesino de una vez y por todas."
   },
   {
-    "titulo": "",
-    "imagen": "",
-    "categoria": "",
-    "capitulos":"",
-    "emision": "",
-    "sinopsis": ""
+    "titulo": "PENNY DREADFUL",
+    "imagen": "assets/images/imgSeries/penny.png",
+    "categoria": "terror",
+    "capitulos":"27",
+    "emision": "2014",
+    "sinopsis": "Showtime nos trae 'Penny Dreadful', una serie coral que gira en torno a los personajes más famosos de la literatura de horror y suspense, entre ellos el Dr. Frankenstein, Dorian Gray o Drácula. La trama de la serie tiene como telón de fondo a Londres durante la época victoriana."
   },
   {
-    "titulo": "",
-    "imagen": "",
-    "categoria": "",
-    "capitulos":"",
-    "emision": "",
-    "sinopsis": ""
+    "titulo": "THE X-FILES",
+    "imagen": "assets/images/imgSeries/xfiles.jpg",
+    "categoria": "terror",
+    "capitulos":"218",
+    "emision": "1993",
+    "sinopsis": "Fox Mulder (David Duchovny, 'Californication') es un psicólogo que trabaja para el FBI. Traumatizado por la desaparición de su hermana años atrás, aparentemente abducida por alienígenas, se dedica a investigar los casos cerrados en busca de sucesos paranormales que el gobierno se ha dedicado a ocultar."
   },
   {
-    "titulo": "",
-    "imagen": "",
-    "categoria": "",
-    "capitulos":"",
-    "emision": "",
-    "sinopsis": ""
+    "titulo": "DAREDEVIL",
+    "imagen": "assets/images/imgSeries/Daredevil.jpg",
+    "categoria": "acción",
+    "capitulos":"39",
+    "emision": "2015",
+    "sinopsis": "Gira en torno a Matt Murdock, un abogado de día y superhéroe de noche. ... Sin descanso, Matt Murdoch recorrerá las calles de Hell's Kitchen, en Nueva York, a la caza de todo tipo de criminales a los que no puede castigar un tribunal."
   },
   {
-    "titulo": "",
-    "imagen": "",
-    "categoria": "",
-    "capitulos":"",
-    "emision": "",
-    "sinopsis": ""
+    "titulo": "WANDA VISION",
+    "imagen": "assets/images/imgSeries/wanda.jpg",
+    "categoria": "acción",
+    "capitulos":"1",
+    "emision": "2021",
+    "sinopsis": "Después de los eventos de Avengers: Endgame (2019), Wanda Maximoff y Visión están viviendo la vida suburbana ideal en la ciudad de Westview, tratando de ocultar sus poderes. Pero a medida que comienzan a entrar en nuevas décadas y se encuentran con tropos televisivos, la pareja sospecha que las cosas no son lo que parecen."
   },
   {
-    "titulo": "",
-    "imagen": "",
-    "categoria": "",
-    "capitulos":"",
-    "emision": "",
-    "sinopsis": ""
+    "titulo": "FALCON AND THE WINTER SOLDIER",
+    "imagen": "assets/images/imgSeries/falcon.jpg",
+    "categoria": "accion",
+    "capitulos":"1",
+    "emision": "2021",
+    "sinopsis": "Continuando los eventos de Avengers: Endgame, Sam Wilson/ Falcon y Bucky Barnes/ Soldado del Invierno emprenden juntos una aventura alrededor del mundo que pone a prueba sus habilidades y su paciencia."
   }
 ]
