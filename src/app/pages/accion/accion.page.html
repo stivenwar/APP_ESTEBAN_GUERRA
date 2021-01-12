@@ -1,5 +1,14 @@
 <app-head titulo="acción" image="assets/images/accion.jpg"></app-head>
 
 <ion-content>
+    <ion-list  *ngFor="let d of series |async" >
+        <ion-card *ngIf="d.categoria ==('acción') ">
+            <ion-card-header>
+                <ion-card-title align="center">{{d.titulo}}</ion-card-title>
+                <ion-img  src="{{d.imagen}}" ></ion-img>
+            </ion-card-header>
+            <ion-card-content align="center" >{{d.sinopsis}}</ion-card-content>
+        </ion-card>
 
+    </ion-list>
 </ion-content>

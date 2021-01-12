@@ -1,6 +1,5 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
 import {Componente} from '../../interfaces/interfaces';
-import series from 'src/assets/data/series.json';
 import {Observable} from 'rxjs';
 import {DataService} from '../../services/data.service';
 
@@ -22,5 +21,6 @@ export class PrincipalPage implements OnInit {
 
   ngOnInit() {
       this.seriesInfo = this.dataService.getInformacion();
+
   }
 }

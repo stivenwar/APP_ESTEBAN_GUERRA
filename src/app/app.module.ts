@@ -12,6 +12,7 @@ import {ComponentsModule} from './components/components.module';
 import {MenuComponent} from './components/menu/menu.component';
 import {HttpClientModule} from '@angular/common/http';
 
+
 @NgModule({
   declarations: [AppComponent, MenuComponent],
   entryComponents: [],

@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import {DataService} from '../../services/data.service';
+import {Observable, Subscription} from 'rxjs';
+
+
 
 @Component({
   selector: 'app-accion',
@@ -7,9 +11,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccionPage implements OnInit {
 
-  constructor() { }
+  accion: Observable<any>;
+  a: Subscription;
+  constructor(private dataSevice: DataService) { }
 
+  series: Observable<any>;
   ngOnInit() {
+  this.series = this.dataSevice.getInformacion();
   }
-
 }
+

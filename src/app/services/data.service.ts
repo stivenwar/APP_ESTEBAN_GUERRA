@@ -8,6 +8,8 @@ import {Componente} from '../interfaces/interfaces';
 })
 export class DataService {
 
+  info: any = {};
+  private url = 'assets/data/series.json';
   constructor(private http: HttpClient) { }
   getMenuOpts(){
     return this.http.get<Componente[]>('assets/data/menu.json');
