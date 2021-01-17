@@ -1,5 +1,7 @@
 {
   "name": "APP_ESTEBAN_GUERRA",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

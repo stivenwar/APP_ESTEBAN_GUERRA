@@ -6,7 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./terror.page.scss'],
 })
 export class TerrorPage implements OnInit {
-
+  slides = [
+    {img: 'assets/images/accion.jpg'
+    },
+    {img: 'assets/images/comedia.jpg'
+    },
+    {img: 'assets/images/terror.jpg'
+    }
+  ];
   constructor() { }
 
   ngOnInit() {

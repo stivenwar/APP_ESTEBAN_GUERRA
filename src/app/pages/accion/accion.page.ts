@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {DataService} from '../../services/data.service';
-import {Observable,  Subscription} from 'rxjs';
+import {Observable} from 'rxjs';
 
 
 @Component({
@@ -19,6 +19,8 @@ export class AccionPage implements OnInit {
     }
       ];
   action: any = [];
+  action2: any = [];
+   i = 0;
   constructor(private dataSevice: DataService) { }
 
   series: Observable<any>;
@@ -26,7 +28,13 @@ export class AccionPage implements OnInit {
   // this.series = this.dataSevice.getInformacion();
   this.dataSevice.getInformacion().subscribe(result => {
     this.action = result;
-    console.log(result);
+    this.action.forEach((value) => {
+      if (value.categoria === 'acción') {
+      this.action2[this.i] = value;
+      console.log(this.action2);
+      this.i++;
+      }
+    });
   });
   }
 }
