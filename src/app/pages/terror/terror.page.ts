@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {DataService} from '../../services/data.service';
+import {Serie} from '../../modelos/serie';
 
 @Component({
   selector: 'app-terror',
@@ -6,17 +8,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./terror.page.scss'],
 })
 export class TerrorPage implements OnInit {
-  slides = [
-    {img: 'assets/images/accion.jpg'
-    },
-    {img: 'assets/images/comedia.jpg'
-    },
-    {img: 'assets/images/terror.jpg'
-    }
-  ];
-  constructor() { }
+  constructor(private dataSevice: DataService) { }
 
+  series: Serie[];
   ngOnInit() {
+    this.dataSevice.getSeries()
+        .subscribe(res => {
+              this.series = (res as Serie[]);
+
+              console.log(this.series);
+            },
+            error => console.error(error));
   }
 
 }

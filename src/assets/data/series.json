@@ -1,5 +1,6 @@
 [
   {
+    "_id": 1,
     "titulo": "SIMSONS",
     "imagen": "assets/images/imgSeries/simpsons.jpg",
     "categoria": "comedia",
@@ -8,6 +9,7 @@
     "sinopsis": "La serie es una sátira hacia la sociedad estadounidense que narra la vida y el día a día de una familia de clase media de ese país (cuyos miembros son Homer, Marge, Bart, Lisa y Maggie Simpson) que vive en un pueblo ficticio llamado Springfield."
   },
   {
+    "_id": 2,
     "titulo": "AQUI NO HAY QUIEN VIVA",
     "imagen": "assets/images/imgSeries/aquiNo.jpg",
     "categoria": "comedia",
@@ -16,6 +18,7 @@
     "sinopsis": " es una serie de televisión española de género humorístico. Narra la vida de una peculiar comunidad de vecinos de Desengaño, 21: tres pisos, dos casas por planta, un ático, una portería y un local contiguo."
   },
   {
+    "_id": 3,
     "titulo": "LA QUE SE AVECINA",
     "imagen": "assets/images/imgSeries/laQueSeAvecina.jpeg",
     "categoria": "comedia",
@@ -24,6 +27,7 @@
     "sinopsis": "La que se avecina cuenta la historia de un grupo de vecinos que viven en una urbanización ficticia llamada Urbanización del mirador de montepinar, en donde han construido un nuevo edificio de condominio, en el momento en que comienzan a llegar los nuevos inquilino al edificio empiezan «las locuras»."
   },
   {
+    "_id": 4,
     "titulo": "BROKLYN NINE-NINE",
     "imagen": "assets/images/imgSeries/brooklyn-nine-nines.jpg",
     "categoria": "comedia",
@@ -32,6 +36,7 @@
     "sinopsis": "La serie sigue las aventuras de un grupo de detectives de la comisaría 99 del Departamento de Policía de Nueva York, cada uno con personalidades distintas."
   },
   {
+    "_id": 5,
     "titulo": "COMO CONOCI A VUESTRA MADRE",
     "imagen": "assets/images/imgSeries/CCAVM.jpg",
     "categoria": "comedia",
@@ -40,6 +45,7 @@
     "sinopsis": "es una historia de amor contada a la inversa; en la que Ted (Josh Radnor) cuenta cómo se enamoró. Cuando los mejores amigos de Ted, Marshall (Jason segel) y Lily ( alyson Hannigan) deciden contraer matrimonio, Ted decide que ha llegado la hora de buscar a su propia media naranja."
   },
   {
+    "_id": 6,
     "titulo": "THE WALKING DEAD",
     "imagen": "assets/images/imgSeries/walking.jpg",
     "categoria": "acción",
@@ -48,6 +54,7 @@
     "sinopsis": "es una serie de televisión estadounidense de horror post-apocalíptico para AMC basada en la serie de cómics de Robert Kirkman, Tony Moore y Charlie Adlard. La serie presenta un gran elenco como sobrevivientes de un apocalipsis zombi, tratando de mantenerse con vida bajo la amenaza casi constante de ataques de los zombis sin conciencia, coloquialmente conocidos como «caminantes». Sin embargo, con la caída de la humanidad, estos sobrevivientes también enfrentan conflictos con otros sobrevivientes que han formado grupos y comunidades con sus propios conjuntos de leyes y morales, lo que a menudo conduce a conflictos hostiles entre las comunidades humanas."
   },
   {
+    "_id": 7,
     "titulo": "GAME OF THRONES",
     "imagen": "assets/images/imgSeries/game.jpg",
     "categoria": "acción",
@@ -56,6 +63,7 @@
     "sinopsis": "La serie está ambientada en los continentes ficticios de Poniente y Essos, y recorre distintos arcos narrativos en los cuales participan un gran número de personajes. Su primer arco narrativo se centra en las violentas luchas dinásticas entre varias familias nobles por el control del Trono de Hierro del continente de Poniente y sus Siete Reinos; el segundo abarca los intentos de recuperar el mismo Trono por parte de los herederos de la antigua dinastía gobernante, la casa Targaryen, quienes fueron exiliados a Essos; la tercera crónica es la creciente amenaza del invierno, las criaturas legendarias y pueblos feroces que habitan más allá del Muro que separa a los Siete Reinos de Poniente de las gélidas tierras del Norte, donde no se ha establecido ningún tipo de gobierno. "
   },
   {
+    "_id": 8,
     "titulo": "BREAKING BAD",
     "imagen": "assets/images/imgSeries/breaking-bad.jpg",
     "categoria": "acción",
@@ -64,6 +72,7 @@
     "sinopsis": "Walter White (Bryan Cranston) es un frustrado profesor de química en un instituto, padre de un joven discapacitado y con una mujer (Anna Gunn) embarazada. Además, trabaja en un lavadero de vehículos por las tardes. Cuando le diagnostican un cáncer pulmonar terminal se plantea qué pasará con su familia cuando él muera. En una redada de la DEA, a la cual fue invitado por su cuñado, el agente Hank Schrader (Dean Norris), Walt reconoce a un antiguo alumno suyo, Jesse Pinkman (Aaron Paul), a quien contacta para fabricar y vender metanfetamina y así asegurar el bienestar económico de su familia. Pero el acercamiento al mundo de las drogas y el trato con traficantes y mafiosos contamina la personalidad de Walter, el cual va abandonando poco a poco su personalidad recta y predecible para convertirse en alguien sin demasiados escrúpulos cuando se trata de conseguir lo que quiere."
   },
   {
+    "_id": 9,
     "titulo": "SONS OF ANARCHY",
     "imagen": "assets/images/imgSeries/anarchyjpg.jpg",
     "categoria": "acción",
@@ -72,6 +81,7 @@
     "sinopsis": " narra la vida de la familia Teller-Morrow en la población de Charming junto con la de otros miembros del club, sus familias, ciudadanos de Charming y varios rivales y aliados que minan y apoyan a los negocios legales e ilegales de SAMCRO."
   },
   {
+    "_id": 10,
     "titulo": "TEEN TITANS",
     "imagen": "assets/images/imgSeries/Titanes.jpg",
     "categoria": "acción",
@@ -80,6 +90,7 @@
     "sinopsis": "sigue a los jóvenes superhéroes del equipo homónimo mientras luchan contra el mal y otros peligros. \u200B Disuelto cuando comienza la historia, la serie ve al equipo regresar cuando los miembros originales y nuevos reforman a los Titanes."
   },
   {
+    "_id": 11,
     "titulo": "THE TERROR",
     "imagen": "assets/images/imgSeries/terror.jpg",
     "categoria": "terror",
@@ -88,6 +99,7 @@
     "sinopsis": "narra las desventuras de los tripulantes que conformaban la expedición perdida de Franklin. Dos barcos, el HMS Erebus y el HMS Terror, que intentaban cruzar por primera vez del Atlántico al Pacífico desafiando los hielos del paso del Noroeste."
   },
   {
+    "_id": 12,
     "titulo": "STRANGER THINGS",
     "imagen": "assets/images/imgSeries/StrangerThings.png",
     "categoria": "terror",
@@ -96,6 +108,7 @@
     "sinopsis": "La historia arranca durante la década de los 80, en el pueblo ficticio de Hawkins, Indiana, cuando un niño llamado Will Byers desaparece misteriosamente, hecho que destapa los extraños sucesos que tienen lugar en la zona, producto de una serie de experimentos que realiza el gobierno en un laboratorio científico cercano ..."
   },
   {
+    "_id": 13,
     "titulo": "AMERICAN HORROR STORY",
     "imagen": "assets/images/imgSeries/American_Horror_Story.png",
     "categoria": "terror",
@@ -104,6 +117,7 @@
     "sinopsis": " Cada temporada se concibe como una miniserie autónoma, siguiendo un conjunto diferente de personajes y escenarios, y un argumento con su propio «principio, medio y fin». Algunos elementos de la trama de cada temporada están vagamente inspirados en hechos reales.4\u200B5\u200B6\u200B Muchos actores aparecen en más de una temporada, pero a menudo interpretan un nuevo personaje."
   },
   {
+    "_id": 14,
     "titulo": "SCREAM",
     "imagen": "assets/images/imgSeries/Scream.jpg",
     "categoria": "terror",
@@ -112,6 +126,7 @@
     "sinopsis": "Emma Duval, una adolescente que de alguna manera está vinculada al pasado de la ciudad, es la principal obsesión del asesino y el centro de estos horribles asesinatos. Con su familia y amigos en aparente peligro, se propone descubrir los oscuros misterios de la ciudad y desenmascarar al asesino de una vez y por todas."
   },
   {
+    "_id": 15,
     "titulo": "PENNY DREADFUL",
     "imagen": "assets/images/imgSeries/penny.png",
     "categoria": "terror",
@@ -120,6 +135,7 @@
     "sinopsis": "Showtime nos trae 'Penny Dreadful', una serie coral que gira en torno a los personajes más famosos de la literatura de horror y suspense, entre ellos el Dr. Frankenstein, Dorian Gray o Drácula. La trama de la serie tiene como telón de fondo a Londres durante la época victoriana."
   },
   {
+    "_id": 16,
     "titulo": "THE X-FILES",
     "imagen": "assets/images/imgSeries/xfiles.jpg",
     "categoria": "terror",
@@ -128,6 +144,7 @@
     "sinopsis": "Fox Mulder (David Duchovny, 'Californication') es un psicólogo que trabaja para el FBI. Traumatizado por la desaparición de su hermana años atrás, aparentemente abducida por alienígenas, se dedica a investigar los casos cerrados en busca de sucesos paranormales que el gobierno se ha dedicado a ocultar."
   },
   {
+    "_id": 17,
     "titulo": "DAREDEVIL",
     "imagen": "assets/images/imgSeries/Daredevil.jpg",
     "categoria": "acción",
@@ -136,6 +153,7 @@
     "sinopsis": "Gira en torno a Matt Murdock, un abogado de día y superhéroe de noche. ... Sin descanso, Matt Murdoch recorrerá las calles de Hell's Kitchen, en Nueva York, a la caza de todo tipo de criminales a los que no puede castigar un tribunal."
   },
   {
+    "_id": 18,
     "titulo": "WANDA VISION",
     "imagen": "assets/images/imgSeries/wanda.jpg",
     "categoria": "acción",
@@ -144,6 +162,7 @@
     "sinopsis": "Después de los eventos de Avengers: Endgame (2019), Wanda Maximoff y Visión están viviendo la vida suburbana ideal en la ciudad de Westview, tratando de ocultar sus poderes. Pero a medida que comienzan a entrar en nuevas décadas y se encuentran con tropos televisivos, la pareja sospecha que las cosas no son lo que parecen."
   },
   {
+    "_id": 19,
     "titulo": "FALCON AND THE WINTER SOLDIER",
     "imagen": "assets/images/imgSeries/falcon.jpg",
     "categoria": "accion",

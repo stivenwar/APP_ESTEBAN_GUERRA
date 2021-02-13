@@ -1,0 +1,83 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>serie</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card color="light" >
+        <ion-slides pager="true"  [options]="slideOpts">
+            <ion-slide *ngFor="let i of series?.imagen">
+                <ion-card>
+                    <ion-img  src="{{i}}"></ion-img>
+                </ion-card>
+            </ion-slide>
+        </ion-slides>
+        <ion-card-header >
+            <ion-card-title class="ion-text-center"> {{series?.titulo}}</ion-card-title>
+            <ion-card-content >
+                <ion-label>CATEGORRIA : {{series?.categorias}}</ion-label>
+                <br>
+                <ion-label>CAPITULOS : {{series?.capitulos}}</ion-label>
+                <br>
+                <ion-label>EMISION : {{series?.emision}}</ion-label>
+                <br>
+                <ion-button  id="btn" expand="full" (click)="mostrar()" >SINOPSIS </ion-button>
+                <ion-label  id="label" hidden >  {{series?.sinopsis}}</ion-label>
+
+            </ion-card-content>
+
+        </ion-card-header>
+
+    </ion-card>
+    <ion-card color="light">
+        <ion-item>
+            <ion-label>Puntuación Media</ion-label>
+            <ion-badge slot="end">22</ion-badge>
+        </ion-item>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header class="ion-text-center">
+            <ion-card-title>Formulario de Puntuación</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+            <form #formulario="ngForm" (ngSubmit)="enviar(dataSevice.puntuacion,formulario)">
+                <ion-list>
+                    <ion-item>
+                        <ion-label position="floating">Email</ion-label>
+                        <ion-input type="email" name="email"
+                                   pattern="^([a-zA-Z0-9_\-\.]+@[a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+                                   [(ngModel)]="dataSevice.puntuacion.email" required></ion-input>
+                    </ion-item>
+                    <br>
+                      <ion-item>
+                        <ion-range (ionChange)="cambiarRango($event)"
+                                   min="1"
+                                   max="5"
+                                   pin="true"
+                                   color="tertiary"
+                                   mode="md">
+
+                            <ion-label slot="start">1</ion-label>
+                            <ion-label slot="end">5</ion-label>
+
+                        </ion-range>
+
+                    </ion-item>
+                    <ion-label>Elige una puntuacion </ion-label>
+                    <ion-button expand="full" type="submit" [disabled]="formulario.invalid">
+                        Enviar
+                    </ion-button>
+                </ion-list>
+            </form>
+
+
+
+
+        </ion-card-content>
+    </ion-card>
+
+
+    </ion-content>

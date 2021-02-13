@@ -9,14 +9,19 @@
 </ion-header>
 
 <ion-content>
-
-     <ion-list *ngFor="let d of seriesInfo | async">
-         <ion-card >
+     <ion-list *ngFor="let d of series | async">
+         <ion-card routerLink="/serie/{{d._id}}">
              <ion-card-header>
                  <ion-card-title align="center">{{d.titulo}}</ion-card-title>
-                 <ion-img  src="{{d.imagen}}" ></ion-img>
+                 <ion-slides pager="true" [options]="slideopts">
+                     <ion-slide *ngFor="let i of d.imagen">
+                         <ion-card>
+                             <ion-img  [src]="i"></ion-img>
+                         </ion-card>
+                     </ion-slide>
+                 </ion-slides>
              </ion-card-header>
-             <ion-card-content align="center" >{{d.sinopsis}}</ion-card-content>
+             <ion-card-content align="center" >{{d.categorias}}</ion-card-content>
          </ion-card>
 
      </ion-list>

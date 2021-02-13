@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'accion',
     loadChildren: () => import('./pages/accion/accion.module').then( m => m.AccionPageModule)
   },
+  {
+    path: 'serie/:id',
+    loadChildren: () => import('./pages/serie/serie.module').then( m => m.SeriePageModule)
+  },
 ];
 
 @NgModule({

@@ -9,18 +9,18 @@ import {DataService} from '../../services/data.service';
   styleUrls: ['./principal.page.scss'],
 })
 export class PrincipalPage implements OnInit {
-    /*serieslist: {titulo: string, imagen: string, sinopsis: string}[] = series;*/
-    seriesInfo: Observable<any>;
+    series: Observable<any>;
   componentes: Componente[] = [];
-  data: any[] = [
-      'assets/images/accion.jpg',
-      'assets/images/comedia.jpg',
-      'assets/images/terror.jpg'
-  ];
+    slideopts = {
+        initialSlide: 1,
+        speed: 2000
+    };
+
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-      this.seriesInfo = this.dataService.getInformacion();
+      this.series = this.dataService.getSeries();
+      console.log(this.series);
 
   }
 }
