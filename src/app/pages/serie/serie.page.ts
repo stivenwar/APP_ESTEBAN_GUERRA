@@ -18,8 +18,10 @@ export class SeriePage implements OnInit {
    constructor(public dataSevice: DataService,
                private activatedRoute: ActivatedRoute) { }
       series: Serie;
-    porcentaje = 0.5;
-      puntuacion: Puntuacion;
+
+      punto: Puntuacion[];
+      pTotal = 0;
+      contador = 0;
      slideOpts = {
         initialSlide: 1,
         speed: 400
@@ -27,6 +29,7 @@ export class SeriePage implements OnInit {
 
   ngOnInit() {
       this.getSerie();
+      this.cogerPuntuacion();
   }
   getSerie(){
       const id = this.activatedRoute.snapshot.params.id;
@@ -47,15 +50,22 @@ export class SeriePage implements OnInit {
             }
         }
     }
-
-
     enviar(puntuacion: Puntuacion, formulario: NgForm) {
         this.dataSevice.postPuntuacion(puntuacion).subscribe(res => {
             console.log(res);
+            formulario.resetForm();
         });
     }
-
-    cambiarRango(event) {
-        this.porcentaje = event.detail.value * 0.01;
+    cogerPuntuacion() {
+        this.dataSevice.getPuntuacion().subscribe((res => {
+            this.punto = (res as Puntuacion[]);
+            console.log(this.punto);
+            for (const numero of this.punto){
+                    this.contador++;
+                    this.pTotal += numero.puntuacion;
+            }
+            this.pTotal = this.pTotal / this.contador;
+            console.log(this.pTotal.toFixed(2));
+        }));
     }
 }

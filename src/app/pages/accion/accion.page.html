@@ -1,39 +1,22 @@
 <app-head titulo="acción" image="assets/images/accion.jpg"></app-head>
 
 <ion-content>
-    <ion-card *ngFor="let d of series " color="light">
-        <ion-grid>
-            <ion-row>
-                <ion-col size-lg="2">
-                    <ion-slides>
-                        <ion-slide *ngFor="let i of d.imagen ">
-                            <ion-card>
-                                <ion-img style="height: 300px; width: 300px" [src]="i"></ion-img>
-                            </ion-card>
-                        </ion-slide>
-                    </ion-slides>
-                </ion-col>
-                <ion-col>
-                    <ion-card>
-                        <ion-card-header>
-                            <ion-card-title>{{d.titulo}}</ion-card-title>
-                        </ion-card-header>
-                        <ion-card-content>
-                            <ion-label>CATEGORRIA : {{d.categorias}}</ion-label>
-                            <br>
-                            <ion-label>CAPITULOS : {{d.capitulos}}</ion-label>
-                            <br>
-                            <ion-label>EMISION : {{d.emision}}</ion-label>
-                            <br>
-                            <ion-label>SINOPSIS : {{d.titulo}} {{d.sinopsis}}</ion-label>
+    <ion-list *ngFor="let d of series2 ">
+        <ion-card routerLink="/serie/{{d._id}}">
+            <ion-card-header>
+                <ion-card-title align="center">{{d.titulo}}</ion-card-title>
+                <ion-slides pager="true" [options]="slideopts">
+                    <ion-slide *ngFor="let i of d.imagen">
+                        <ion-card>
+                            <ion-img  [src]="i"></ion-img>
+                        </ion-card>
+                    </ion-slide>
+                </ion-slides>
+            </ion-card-header>
+            <ion-card-content align="center" >{{d.categorias}}</ion-card-content>
+        </ion-card>
 
-                        </ion-card-content>
-
-                    </ion-card>
-                </ion-col>
-            </ion-row>
-        </ion-grid>
-    </ion-card>
+    </ion-list>
 
 
 </ion-content>

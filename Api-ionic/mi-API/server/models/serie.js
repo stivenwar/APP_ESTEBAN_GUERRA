@@ -12,5 +12,6 @@ const serieSchema =({
 
 });
 
+
 module.exports = mongoose.model('Serie',serieSchema,'series');
 

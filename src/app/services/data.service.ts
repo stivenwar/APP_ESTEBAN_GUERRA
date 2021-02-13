@@ -14,7 +14,7 @@ export class DataService {
   serie: Serie[];
 
   readonly URL = 'http://localhost:3000/api/series';
-  readonly URLP = 'http://localhost:5000/api/series';
+  readonly URLP = 'http://localhost:3000/api/puntuacion';
   constructor(private http: HttpClient) {
     this.puntuacion = new Puntuacion();
   }
@@ -34,7 +34,10 @@ export class DataService {
     return this.http.get(this.URL);
   }
   postPuntuacion(puntuacion: Puntuacion){
-    return this.http.post(this.URLP,puntuacion);
+    return this.http.post(this.URLP, puntuacion);
+  }
+  getPuntuacion(){
+      return this.http.get(this.URLP);
   }
 
 }

@@ -23,4 +23,8 @@ export class PrincipalPage implements OnInit {
       console.log(this.series);
 
   }
+
+    loadData($event: any) {
+
+    }
 }

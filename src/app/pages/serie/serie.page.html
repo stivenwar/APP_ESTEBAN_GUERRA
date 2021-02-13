@@ -1,8 +1,4 @@
-<ion-header>
-    <ion-toolbar>
-        <ion-title>serie</ion-title>
-    </ion-toolbar>
-</ion-header>
+<app-head titulo="Serie" image="assets/images/accion.jpg"></app-head>
 
 <ion-content>
     <ion-card color="light" >
@@ -14,7 +10,7 @@
             </ion-slide>
         </ion-slides>
         <ion-card-header >
-            <ion-card-title class="ion-text-center"> {{series?.titulo}}</ion-card-title>
+            <ion-card-title  class="ion-text-center"> {{series?.titulo}}</ion-card-title>
             <ion-card-content >
                 <ion-label>CATEGORRIA : {{series?.categorias}}</ion-label>
                 <br>
@@ -30,10 +26,10 @@
         </ion-card-header>
 
     </ion-card>
-    <ion-card color="light">
-        <ion-item>
+    <ion-card color="light" >
+        <ion-item >
             <ion-label>Puntuación Media</ion-label>
-            <ion-badge slot="end">22</ion-badge>
+            <ion-badge  slot="end" >{{pTotal.toFixed(2)}}</ion-badge>
         </ion-item>
     </ion-card>
 
@@ -45,7 +41,9 @@
         <ion-card-content>
             <form #formulario="ngForm" (ngSubmit)="enviar(dataSevice.puntuacion,formulario)">
                 <ion-list>
+                    <ion-label type="text" name="titulo" [(ngModel)]="dataSevice.puntuacion.titulo" ngDefaultControl></ion-label>
                     <ion-item>
+
                         <ion-label position="floating">Email</ion-label>
                         <ion-input type="email" name="email"
                                    pattern="^([a-zA-Z0-9_\-\.]+@[a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
@@ -53,12 +51,13 @@
                     </ion-item>
                     <br>
                       <ion-item>
-                        <ion-range (ionChange)="cambiarRango($event)"
+                        <ion-range [(ngModel)]="dataSevice.puntuacion.puntuacion"
                                    min="1"
                                    max="5"
                                    pin="true"
                                    color="tertiary"
-                                   mode="md">
+                                   mode="md"
+                                    name="range">
 
                             <ion-label slot="start">1</ion-label>
                             <ion-label slot="end">5</ion-label>
@@ -72,10 +71,6 @@
                     </ion-button>
                 </ion-list>
             </form>
-
-
-
-
         </ion-card-content>
     </ion-card>
 

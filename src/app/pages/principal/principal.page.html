@@ -1,6 +1,6 @@
 <ion-header class="ion-no-border" >
     <ion-toolbar color="primary">
-        <ion-title align="center">Principal</ion-title>
+        <ion-title align="center"><ion-icon name="home-outline"></ion-icon>Principal</ion-title>
         <ion-buttons slot="end">
             <ion-menu-button menu="first"></ion-menu-button>
 
@@ -21,9 +21,14 @@
                      </ion-slide>
                  </ion-slides>
              </ion-card-header>
-             <ion-card-content align="center" >{{d.categorias}}</ion-card-content>
+
+             <ion-card-content class="ion-color-dark" align="center" >{{d.categorias}}</ion-card-content>
          </ion-card>
 
      </ion-list>
+    <ion-infinite-scroll threshold="150px" (ionInfinite)="loadData($event)">
+        <ion-infinite-scroll-content loading-text="cargando..."
+                                     loading-spinner="crescent"></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
 
 </ion-content>

@@ -14,6 +14,7 @@ app.use(express.json());
 app.use(cors());
 //RUTAS
 app.use('/api/series',require('./server/routes/series'))
+app.use('/api/puntuacion',require('./server/routes/puntuaciones'))
 //CORRER SERVIDOR
 app.listen(app.get('port'),() =>{
    console.log('Server on port',app.get('port'));

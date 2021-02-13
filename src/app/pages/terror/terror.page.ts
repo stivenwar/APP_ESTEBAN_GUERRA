@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {DataService} from '../../services/data.service';
 import {Serie} from '../../modelos/serie';
+import {Observable} from 'rxjs';
+import {Componente} from '../../interfaces/interfaces';
 
 @Component({
   selector: 'app-terror',
@@ -8,17 +10,29 @@ import {Serie} from '../../modelos/serie';
   styleUrls: ['./terror.page.scss'],
 })
 export class TerrorPage implements OnInit {
-  constructor(private dataSevice: DataService) { }
+    series: Serie[];
+    series2: Serie[];
+    componentes: Componente[] = [];
+    slideopts = {
+        initialSlide: 1,
+        speed: 2000
+    };
+    contador = 0;
 
-  series: Serie[];
-  ngOnInit() {
-    this.dataSevice.getSeries()
-        .subscribe(res => {
-              this.series = (res as Serie[]);
+    constructor(private dataService: DataService) { }
 
-              console.log(this.series);
-            },
-            error => console.error(error));
-  }
+    ngOnInit() {
+        this.dataService.getSeries().subscribe(result => {
+            this.series = (result as Serie[]);
+            for (const numero of this.series){
+                if (numero.categorias[this.contador] === 'terror'){
+                    this.series2 = this.series;
+                    console.log(this.series2);
+                }
+            }
+        });
+        console.log(this.series);
+
+    }
 
 }

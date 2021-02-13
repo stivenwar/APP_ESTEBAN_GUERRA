@@ -4,9 +4,6 @@ const serieController = require("../controllers/serie");
 
 
 
-
-router.get('/', serieController.getSeries);
-router.get('/:id', serieController.getSerie);
 router.post('/', serieController.postPuntuacion);
 router.get('/', serieController.getPuntuacion);
 
