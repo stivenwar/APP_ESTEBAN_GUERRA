@@ -12,11 +12,19 @@ import {Serie} from '../../modelos/serie';
 export class ComediaPage implements OnInit {
 
   series: Serie[];
-  series2: Serie[];
+  series2: Serie[] = [];
   componentes: Componente[] = [];
   slideopts = {
-    initialSlide: 1,
-    speed: 2000
+    initialSlide: 0,
+    loop: 1,
+    autoplay: true,
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true
+    }
   };
   contador = 0;
 
@@ -26,14 +34,14 @@ export class ComediaPage implements OnInit {
     this.dataService.getSeries().subscribe(result => {
       this.series = (result as Serie[]);
       for (const numero of this.series){
-        if (numero.categorias[this.contador] === 'comedia'){
-          this.series2 = this.series;
-          console.log(this.series2);
-          this.contador++;
+        for (const cat of numero.categorias){
+          if (cat  === 'Comedia'){
+            this.series2.push(numero);
+            console.log(this.series2);
+          }
         }
       }
     });
-    console.log(this.series);
 
   }
 

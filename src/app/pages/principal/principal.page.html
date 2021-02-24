@@ -9,14 +9,14 @@
 </ion-header>
 
 <ion-content>
-     <ion-list *ngFor="let d of series | async">
+     <ion-list *ngFor="let d of aux ">
          <ion-card routerLink="/serie/{{d._id}}">
              <ion-card-header>
                  <ion-card-title align="center">{{d.titulo}}</ion-card-title>
-                 <ion-slides pager="true" [options]="slideopts">
+                 <ion-slides pager="true"  [options]="slideopts">
                      <ion-slide *ngFor="let i of d.imagen">
                          <ion-card>
-                             <ion-img  [src]="i"></ion-img>
+                             <ion-img id="imagen"  [src]="i"></ion-img>
                          </ion-card>
                      </ion-slide>
                  </ion-slides>
@@ -31,4 +31,6 @@
                                      loading-spinner="crescent"></ion-infinite-scroll-content>
     </ion-infinite-scroll>
 
+
 </ion-content>
+

@@ -1,22 +1,22 @@
 <app-head titulo="Serie" image="assets/images/accion.jpg"></app-head>
 
-<ion-content>
+<ion-content *ngIf="series">
     <ion-card color="light" >
-        <ion-slides pager="true"  [options]="slideOpts">
-            <ion-slide *ngFor="let i of series?.imagen">
+        <ion-slides pager="true"  [options]="slideopts">
+            <ion-slide id="imagen" *ngFor="let i of series.imagen ">
                 <ion-card>
                     <ion-img  src="{{i}}"></ion-img>
                 </ion-card>
             </ion-slide>
         </ion-slides>
-        <ion-card-header >
-            <ion-card-title  class="ion-text-center"> {{series?.titulo}}</ion-card-title>
-            <ion-card-content >
-                <ion-label>CATEGORRIA : {{series?.categorias}}</ion-label>
+        <ion-card-header>
+            <ion-card-title  class="ion-text-center"> {{series.titulo}}</ion-card-title>
+            <ion-card-content>
+                <ion-label>CATEGORRIA : {{series.categorias}}</ion-label>
                 <br>
-                <ion-label>CAPITULOS : {{series?.capitulos}}</ion-label>
+                <ion-label>CAPITULOS : {{series.capitulos}}</ion-label>
                 <br>
-                <ion-label>EMISION : {{series?.emision}}</ion-label>
+                <ion-label>EMISION : {{series.emision}}</ion-label>
                 <br>
                 <ion-button  id="btn" expand="full" (click)="mostrar()" >SINOPSIS </ion-button>
                 <ion-label  id="label" hidden >  {{series?.sinopsis}}</ion-label>
@@ -74,5 +74,18 @@
         </ion-card-content>
     </ion-card>
 
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button>
+            <ion-icon name="share"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-list side="top">
+            <ion-fab-button color="secondary" href="https://www.vimeo.com/"><ion-icon name="logo-vimeo"></ion-icon></ion-fab-button>
+            <ion-fab-button color="primary" href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+            <ion-fab-button color="tertiary"  href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+            <ion-fab-button color="secondary" href="https://www.twitter.com/"><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+            <ion-fab-button color="danger" href="https://www.youtube.com/"><ion-icon name="logo-youtube"></ion-icon></ion-fab-button>
+        </ion-fab-list>
+
+    </ion-fab>
 
     </ion-content>

@@ -29,6 +29,7 @@ serieController.getSerie = async (req, res) => {
     }
 
 };
+
 serieController.postPuntuacion = async (req, res) =>{
 
     try{

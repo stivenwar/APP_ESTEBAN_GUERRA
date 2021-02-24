@@ -3,6 +3,7 @@ import {DataService} from '../../services/data.service';
 import {Observable} from 'rxjs';
 import {Serie} from '../../modelos/serie';
 import {Componente} from '../../interfaces/interfaces';
+import {Serie2} from '../../interfaces/interfazSerie';
 
 
 @Component({
@@ -13,28 +14,34 @@ import {Componente} from '../../interfaces/interfaces';
 export class AccionPage implements OnInit {
 
     series: Serie[];
-    series2: Serie[];
+    series2: Serie[] = [];
+    contador: 0;
     componentes: Componente[] = [];
     slideopts = {
         initialSlide: 1,
-        speed: 2000
+        autoplay: true,
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true
+        }
     };
-    contador = 0;
-
+    c: Serie2[];
     constructor(private dataService: DataService) { }
 
     ngOnInit() {
         this.dataService.getSeries().subscribe(result => {
             this.series = (result as Serie[]);
             for (const numero of this.series){
-                if (numero.categorias[this.contador] === 'accion'){
-                    this.series2 = this.series;
-                    console.log(this.series2);
-                    this.contador++;
+                for (const cat of numero.categorias){
+                    if (cat  === 'Acción'){
+                        this.series2.push(numero);
+                        console.log(this.series2);
+                    }
                 }
             }
         });
-        console.log(this.series);
-
     }
 }
