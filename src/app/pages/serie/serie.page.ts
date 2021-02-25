@@ -60,7 +60,6 @@ export class SeriePage implements OnInit {
         }
     }
     async enviar(puntuacion: Puntuacion, formulario: NgForm) {
-
         this.dataSevice.postPuntuacion(puntuacion).subscribe(res => {
             console.log(res);
             formulario.resetForm();
